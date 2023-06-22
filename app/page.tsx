@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="font-bold text-3xl">
         Hi
         <br />
-        I'm {profile.name}
+        I&apos;m {profile.name}
       </h1>
       <p className="font-bold text-2xl my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
       {profile.jobTitle}
