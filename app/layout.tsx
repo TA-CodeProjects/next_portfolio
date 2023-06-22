@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "@/components/Sidebar";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: "Tomer | Portfolio",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <Sidebar />
         <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
